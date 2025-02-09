@@ -36,16 +36,16 @@ By implementing two distinct programming approaches, this project demonstrates t
 ---
 
 ## **🔗 How to Run**
-##Procedural Paradigm:
-  1.Navigate to the proceduralParadigm/ directory:
-  2.bash cd THE_KEPLER_PROJECT/proceduralParadigm
-  3.Run the program: bash python proceduralAstro.py
-##Object-Oriented Paradigm:
-  1.Navigate to the objectOrientedParadigm/src/helpers/ directory:
-  2.bash cd THE_KEPLER_PROJECT/objectOrientedParadigm/src/helpers
-  3.Run the program: bash python solar_system_calculator.py
+- Procedural Paradigm:
+  Navigate to the proceduralParadigm/ directory:
+  bash cd THE_KEPLER_PROJECT/proceduralParadigm
+  Run the program: bash python proceduralAstro.py
+- Object-Oriented Paradigm:
+  Navigate to the objectOrientedParadigm/src/helpers/ directory:
+  bash cd THE_KEPLER_PROJECT/objectOrientedParadigm/src/helpers
+  Run the program: bash python solar_system_calculator.py
 
-  ---
+---
 
 ## **📅 Current Date:**
 Sunday, February 09, 2025, 1 AM EST
