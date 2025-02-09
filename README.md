@@ -18,6 +18,8 @@ By implementing two distinct programming approaches, this project demonstrates t
   - Diameter (km)
   - Volume Comparisons (e.g., total planet volumes vs. Sun’s volume)
 - Dynamically handle missing values for diameter or circumference.
+- Support for both procedural and object-oriented paradigms.
+- Modular file structure for scalability and maintainability.
 
 ---
 
