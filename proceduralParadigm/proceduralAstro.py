@@ -28,12 +28,19 @@ with open('JSONPrettyPrint.txt', 'r') as file:
 # Fetching Sun data from JSON file
 sun = data
 sunName = sun["Name"]
-sunDiameter = sun["Diameter"]
-sunCircumference = calCircumference(sunDiameter)
+sunDiameter = sun.get("Diameter")
+sunCircumference = sun.get("Circumference")
 
 print(f"Sun: {sunName}")
-print(f"Diameter of {sunName}: {sunDiameter:,} km")
-print(f"Circumference of {sunName}: {sunCircumference:,.0f} km")
+
+if sunDiameter:
+    print(f"Diameter of {sunName}: {sunDiameter:.2f} km")
+    sunCircumference = calCircumference(sunDiameter)
+    print(f"Circumference of {sunName}: {sunCircumference:.2f} km")
+elif sunCircumference:
+    print(f"Circumference of {sunName}: {sunCircumference:.2f} km")
+    sunDiameter = calDiameter(sunCircumference)
+    print(f"Diameter of {sunName}: {sunDiameter:.2f} km")
 
 # Fetching planets data from JSON file
 totalPlanetVolume = 0
